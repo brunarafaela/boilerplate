@@ -1,0 +1,38 @@
+// General and Main
+
+* {
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-right: 0 !important;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    // &:not(.modal-open) {
+    //     overflow: scroll !important;
+    // }
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.lista-com-marcadores {
+    list-style-type: disc;
+}
+
+
+a:hover {
+    text-decoration: none!important;
+    font-weight: bold;
+}

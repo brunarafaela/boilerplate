@@ -26,7 +26,7 @@ require_once __DIR__ . '/../core/functions.php';
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
   <!-- Optional: Bootstrap CSS -->
-  <script type="text/JavaScript" language="JavaScript" src="/assets/js/color-modes.js"></script>
+  <script type="text/JavaScript" language="JavaScript" src="/assets/js/color-modes.min.js"></script>
   <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
   <!-- CSS -->
   <link rel="stylesheet" href="/assets/css/style.min.css">

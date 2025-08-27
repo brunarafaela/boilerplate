@@ -1,8 +1,8 @@
 .btnSeletorIdioma {
-  background-color: #FFF;
+  background-color: #ccc;
   padding: 5px;
   border-radius: 10px;
-  color: blue;
+  color: black;
   cursor: pointer;
   display: flex;
   align-content: center;
@@ -15,7 +15,7 @@
 }
 
 .painelSeletorIdioma {
-  background-color: #fff;
+  background-color: #ccc;
   padding: 5px;
   border-radius: 10px;
   display: none;
@@ -23,7 +23,7 @@
   max-width: auto;
   margin: auto;
   margin-top: 5px;
-  border: 1px solid blue;
+  border: 1px solid black;
   position: fixed;
   z-index: 1111111;
 }
@@ -50,7 +50,6 @@ html {
 }
 
 body {
-  padding-right: 0 !important;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -64,9 +63,4 @@ ol {
 
 .lista-com-marcadores {
   list-style-type: disc;
-}
-
-a:hover {
-  text-decoration: none !important;
-  font-weight: bold;
 }

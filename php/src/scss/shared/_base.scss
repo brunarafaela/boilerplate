@@ -12,12 +12,8 @@ html {
 }
 
 body {
-    padding-right: 0 !important;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    // &:not(.modal-open) {
-    //     overflow: scroll !important;
-    // }
 }
 
 ul,
@@ -29,10 +25,4 @@ ol {
 
 .lista-com-marcadores {
     list-style-type: disc;
-}
-
-
-a:hover {
-    text-decoration: none!important;
-    font-weight: bold;
 }

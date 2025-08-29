@@ -1,29 +1,27 @@
 // Variables
 
-// Hypera Pharma Colors system
+// Partner Benefícios Colors System
 
-$primaria-50:  #EDF6FC;
-$primaria-100: #A9D0EE;
-$primaria-500: #0062AA;
-$primaria-600: #074878;
+$brand-green-dark: #00441F;
+$brand-green-light: #00CF7B;
 
-$secundaria-500: #00BFDF;
-$branco-hypera: #FCFCFC;
-$cinza-hypera:  #F5F5F5;
+$brand-orange: #ff7a40;
+$brand-blue: #00A8E2;
+$brand-pink: #EF6FD4;
+$brand-blue-dark: #070041;
 
-$white: #FFF;
-$gray-100: #929497;
-$gray-400: #5D5F61;
-$gray-500: #434445;
+$gray-100: #FFFAF1;
+$gray-400: #E0E5CF;
+$gray-500: #D7D8D2;
 $gray-600: #292A2B;
 $black: #000000;
+$white: #FFFFFF;
 
 
 $grays: (
   "gray-100": $gray-100,
   "gray-400": $gray-400,
-  "gray-500": $gray-500,
-  "gray-600": $gray-600,
+  "gray-500": $gray-500
 );
 
 $blue: #0d6efd;
@@ -42,9 +40,8 @@ $colors: (
   "black": $black,
 );
 
-$primary: $primaria-500;
-$secondary: $secundaria-500;
-$branco-hypera: $branco-hypera;
+$primary: $brand-green-dark;
+$secondary: $brand-orange;
 $success: #45AF5E;
 $info: #D38D13;
 $warning: $yellow;
@@ -53,20 +50,14 @@ $light: $white;
 $dark: $black;
 
 $theme-colors: (
-  "primary": $primaria-500,
-  "secondary": $secundaria-500,
+  "primary": $brand-green-dark,
+  "secondary": $brand-orange,
   "success": $success,
   "info": $info,
   "warning": $yellow,
   "danger": $danger,
   "light": $white,
   "dark": $black,
-  "primaria-50": $primaria-50,
-  "primaria-100": $primaria-100,
-  "primaria-500": $primaria-500,
-  "primaria-600": $primaria-600,
-  "secundaria-500": $secundaria-500,
-  "branco-hypera": $branco-hypera
 );
 
 $min-contrast-ratio: 4.5;
@@ -387,7 +378,7 @@ $position-values: (
 //
 // Settings for the `<body>` element.
 $body-bg: $white;
-$body-color: $gray-600;
+$body-color: #212529;
 $body-text-align: null;
 
 // Links
